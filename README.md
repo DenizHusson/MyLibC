@@ -10,8 +10,8 @@ If you are an Epitech Student you can totally take inspiration from my functions
 
 ## Function Book
 
-my_putchar - *display a character*
-my_putstr - *display a string*
+my_putchar - *display a character*\n
+my_putstr - *display a string*\n
 my_strlen - *return lenght of a string*
 my_put_nbr - *display an int*
 my_numlen - *return lenght of an int*
