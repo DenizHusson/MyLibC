@@ -1,4 +1,4 @@
-# MyLib
+# MyLibC
 
 As an Epitech student, I had to make my own library, to recreate many very useful libC functions.
 
