@@ -49,9 +49,10 @@ Functions to make double chained list
 
 **my_sort_int_array** - *sort a list of int*
 
+
 ### list
 
-**empty_list** - *create an empty list* - list empty_list(void)
+**empty_list** - *create an empty list* - '''list empty_list(void)'''
 
 **is_empty_list** - *return true if it is an empty list, false if not* - bool_e is_empty_list(list lst)
 
