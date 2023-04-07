@@ -5,12 +5,13 @@
 ** proto.h
 */
 
-#ifndef PROTO
-    #define PROTO
+#ifndef MY_H_
+    #define MY_H_
 
     #include <stdlib.h>
     #include <stddef.h>
     #include <stdio.h>
+    #include <unistd.h>
 
     int my_compute_power_rec(int nb, int p);
     int my_compute_square_root(int nb);
@@ -43,5 +44,9 @@
     int my_numlen(int c);
     int my_strlen(char const *str);
     int **str_to_int(char *str);
+    int nb_word(char *str);
+    int skip_space(int nb, char *str);
+    int nb_mots(char *str, int i);
+    int my_putstr(char const *str);
 
 #endif /* PROTO */
