@@ -5,16 +5,16 @@
 ** my_str_isprintable.c
 */
 
-#include "my.h"
+#include <stdbool.h>
 
-int my_str_isprintable(char const *str)
+bool my_str_isprintable(char const *str)
 {
     int nb;
 
     for ( nb = 0 ; str[nb] ; nb++) {
         if ( str[nb] < 32 || str[nb] == 127) {
-            return 0;
+            return false;
         }
     }
-    return 1;
+    return true;
 }

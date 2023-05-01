@@ -7,7 +7,7 @@
 
 #include "my.h"
 
-void echange(int *a, int *b)
+static void echange(int *a, int *b)
 {
     if ( *a > *b) {
         my_swap(a,b);

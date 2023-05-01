@@ -5,16 +5,16 @@
 ** Untitled-1
 */
 
-#include "my.h"
+#include <stdbool.h>
 
-int my_str_isupper(char const *str)
+bool my_str_isupper(char const *str)
 {
     int nb;
 
     for ( nb = 0 ; str[nb] ; nb++) {
         if ( str[nb] < 'A' || str[nb] > 'Z' ) {
-            return 0;
+            return false;
         }
     }
-    return 1;
+    return true;
 }
